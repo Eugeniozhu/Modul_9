@@ -10,7 +10,7 @@ def is_prime(func):
             print("Простое число")
             return i
         else:
-            print("Не простое число")
+            print("Составное")
             return i
     return wrapper
 
